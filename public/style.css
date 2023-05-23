@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Quicksand";
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 5px;
+    padding: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 6px;
+}
+#content {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    border: 1px solid  #5d6d7e;
+    border-radius: 4px;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: row;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #0D6EFD;
+    justify-content: center;
+}
+nav p {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 5px;
+    padding: 3px;
+}
+nav ul li {
+    display: contents;
+    text-decoration: none;
+    color: #fff;
+}
+.PF {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px;
+    margin: 5px;
+}
+.PF2 {
+    border: 1px solid  #5d6d7e;
+    border-radius: 4px;
+}
+.PF2.active {
+    padding: 2px;
+}
+#GP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn-gp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.set {
+    margin: 5px;
+}
+#content p {
+    margin: 5px;
+}
+.msg {
+    color: deeppink;
+}
+.checkk {
+    display: none;
+}
+.checkk.active {
+    display: flex;
+    color:#0D6EFD;
+}
+.nav-note {
+width: -20px;
+}
+@media screen and (max-width: 900px) {
+    * {
+        font-size: 14px;
+    }
+    nav p {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+}
