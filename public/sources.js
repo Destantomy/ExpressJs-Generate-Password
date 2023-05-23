@@ -12,7 +12,7 @@ async function getPassword() {
   const convert = JSON.stringify(data.random_password);
   console.log(data.random_password);
   document.querySelector('.PF').textContent = convert;
-};
+}
 
 document.querySelector('#getPas').addEventListener('click', () => {
   getPassword();
